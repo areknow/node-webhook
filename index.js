@@ -16,4 +16,4 @@ webHooks.add('hook1', 'https://outlook.office.com/webhook/9a13f911-e1f1-4f6a-868
 })
  
 
-webHooks.trigger('hook', {"text": "test"}) 
+webHooks.trigger('hook1', {"text": "test"})
